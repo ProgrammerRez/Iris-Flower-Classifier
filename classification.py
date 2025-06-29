@@ -2,7 +2,7 @@ import streamlit as st
 import joblib as jb
 import numpy as np
 
-model = jb.load('iris_random_forest_model.joblib')
+model = jb.load('model.joblib')
 
 st.title('Iris Flower Classification')
 
